@@ -6,7 +6,7 @@ function checkAnswer() {
 
 
     if (userAnswer === correctAnswer) {
-        feedback.textContent = 'Correct!';
+        feedback.textContent = "Correct! Well done.";
     } else {
         feedback.textContent = 'Incorrect. The correct answer is 4.';
     }
